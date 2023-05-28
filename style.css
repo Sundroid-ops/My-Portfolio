@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    background: black;
+    color: aliceblue;
+}
+
+body header{
+    width: 1208px;
+    height: 410px;
+    background-position: left;
+    background-image: url("img/nicole-mason-cv_fqvrbKWs-unsplash.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+header h1 , header h2{
+    text-align: center;
+    transform: translateY(64px);
+    color: #ced4da;
+}
+
+h1{
+    font-size: 5.1em;
+    margin-bottom: 10px ;
+}
+
+h2{
+    font-size: 2.1em;
+}
+
+body main .tagline .About, .tagline .Start , .tagline .Now , main .skills .myskill , .skills .skillset{
+    border: 1px solid black;
+    background-color: #415a77;
+    margin-bottom: 40px;
+    width: 1000px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body main .tagline .About , .tagline .Now , body .skills .skillset{
+    padding: 5px 20px;
+    transition: ease-out 1.5s, background-color 3s ;
+}
+
+body main .tagline .Start , .skills .myskill{
+    margin-left: 168px;
+    padding: 5px 20px;
+    transition: ease-in 1.5s, background-color 3s ;
+}
+
+body main .About:hover , .tagline .Now:hover , body .skills .skillset:hover{
+    margin-left: 168px;
+    background-color: #ffb4a2;
+}
+
+body main .Start:hover , .skills .myskill:hover{
+    margin-left: 0px;
+    background-color: #ffb4a2;
+}
+
+h3{
+    font-size: x-large;
+}
+
+p{
+    font-size: large;
+    padding-left: 23px;
+}
+
+hr{
+    background-color: #ced4da;
+    margin-bottom: 20px;
+}
+
+body footer .contact{
+    text-align: center;
+    font-size: x-large;
+}
+
+.linkedin,.reddit{
+    margin-left: 20px;
+}
+
+.small_text{
+    margin-right: 21px;
+    font-size: medium;
+}
+
+.twitter:hover,.linkedin:hover,.reddit:hover{
+    font-size: large;
+    opacity: 0.6;
+}
+
+.twitter:visited,.linkedin:visited,.reddit:visited{
+    color: white;
+}
